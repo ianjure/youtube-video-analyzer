@@ -1,0 +1,1 @@
+A simple YouTube Video Analyzer chrome extension that scores the video comments using Sentiment Analysis and shows the overall performance of the video based on the positive, neutral and negative comments.
