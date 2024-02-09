@@ -1,0 +1,26 @@
+{ 
+    "manifest_version": 3,
+    "name": "YouTube Video Analyzer",
+    "description": "An extension that analyzes a YouTube video based on the comments. Scores are determined using Sentiment Analysis.",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent", "tabs"],
+    "host_permissions": ["https://ytvidapi.onrender.com/*"],
+    
+    "action": {
+        "default_title": "YouTube Video Analyzer",
+        "default_icon": {
+            "16": "images/icon.png",
+            "32": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
